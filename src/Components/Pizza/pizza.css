@@ -78,11 +78,7 @@ body {
 .pizza_container {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-}
-
-.pizza_title{
-    margin: 30px 0 0 0;
+    margin-top: 5rem;
 }
 
 .hide{

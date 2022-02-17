@@ -4,11 +4,10 @@ import {PaymentContext} from "../../App";
 
 const Pizza = ({guests, eaters, slices}) => {
 
-	const {isLoaded, pizza} = useContext(PaymentContext)
+	const {isLoaded} = useContext(PaymentContext)
 
 	return (
 		<div className={`content ${isLoaded ? '' : 'hide'}`} id="content_block">
-			<h1 className={'pizza_title'}>{pizza.name}</h1>
 			<div className="pizza_container" id="pizza_visible">
 				<div className="pizza_content">
 					<div className="basil">
