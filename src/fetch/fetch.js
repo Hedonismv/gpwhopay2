@@ -1,6 +1,4 @@
 // fetch all guests 1st func
-import {logDOM} from "@testing-library/react";
-
 export const fetchGuests = () => {
 	return 	fetch("https://gp-js-test.herokuapp.com/pizza/guests")
 				.then((response) => response.json())
